@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.6">
+	<ConfigVersions>
+		<Metadata name="Catalog.ИнформационныеБазы" id="4ce5ba8d-ed48-44a9-a280-bf33bc900674" configVersion="3bca48a3fb197b499bdb13696504d18700000000">
+			<Metadata name="Catalog.ИнформационныеБазы.TabularSection.Пользователи" id="37556858-6b58-4ff5-a2d5-83116b192349"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.ИмяБазы" id="433aaaf8-c142-4cd5-9190-3813c254c97e"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.ЭтоКопия" id="4d6a0b92-6cb5-4bf9-a343-e3b3814b36dd"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.Сервер" id="61014c3c-7479-4b70-9125-997684fad86f"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.Конфигурация" id="c2260e69-5574-4888-ad9d-7336728c26fd"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.Режим" id="cec73f8c-c276-46da-a9f8-0277e0b558cc"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.Каталог" id="d41e1757-b8e9-4355-9a96-9ed351160210"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.Копия" id="ed9ec03c-302a-4ad1-a3d8-96d4c5fe1cc5"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.Платформа" id="f5b4e3d5-8303-4917-857c-5b5a00aea39c"/>
+		</Metadata>
+		<Metadata name="Catalog.ИнформационныеБазы.Form.ФормаСписка" id="2c02bdb7-7a33-4640-bab8-d93f4e1d4ccb" configVersion="81d7995988c2744288b05b7705261cd700000000"/>
+		<Metadata name="Catalog.ИнформационныеБазы.Form.ФормаСписка.Form" id="2c02bdb7-7a33-4640-bab8-d93f4e1d4ccb.0" configVersion="86d0b64e72dab2468f72d2e6e87ce78100000000"/>
+		<Metadata name="Catalog.ИнформационныеБазы.Form.ФормаЭлемента" id="ca1e97c3-1157-4dcd-83bc-2ad01676aaef" configVersion="0d8ca9d3fc2df5449d801dac4cc4794d00000000"/>
+		<Metadata name="Catalog.ИнформационныеБазы.Form.ФормаЭлемента.Form" id="ca1e97c3-1157-4dcd-83bc-2ad01676aaef.0" configVersion="09b25f56ae115c4daa4a7b21932aa03700000000"/>
+		<Metadata name="Catalog.Конфигурации" id="123554aa-e50e-45ad-b022-7c4dfcea1850" configVersion="d2693bab29093c44a5560c97f294094500000000">
+			<Metadata name="Catalog.Конфигурации.Attribute.Версия" id="869edec8-9571-4af6-987f-ff0011f9a8a4"/>
+			<Metadata name="Catalog.Конфигурации.Attribute.Разработчик" id="c8c3bc0d-5d5a-4841-826e-8be33fbbf94f"/>
+		</Metadata>
+		<Metadata name="Catalog.Конфигурации.Form.ФормаСписка" id="b55496b3-7db0-4dec-9c67-8bca20daa73f" configVersion="76979face901fc4daf22221efebcb08a00000000"/>
+		<Metadata name="Catalog.Конфигурации.Form.ФормаСписка.Form" id="b55496b3-7db0-4dec-9c67-8bca20daa73f.0" configVersion="36791d990de8144598584c2b19c1044900000000"/>
+		<Metadata name="Catalog.Конфигурации.Form.ФормаЭлемента" id="47a67da9-2c8a-4f0c-af68-73bd4b093040" configVersion="4944ffc18fc135479d1b81298b7093ca00000000"/>
+		<Metadata name="Catalog.Конфигурации.Form.ФормаЭлемента.Form" id="47a67da9-2c8a-4f0c-af68-73bd4b093040.0" configVersion="df1fb18b92a09d4b8af1d937ffa2961600000000"/>
+		<Metadata name="Catalog.Платформы" id="3599f38b-172f-4c60-896c-fb16745df4f7" configVersion="6936277d1e0d7b41872488e509a50ce300000000">
+			<Metadata name="Catalog.Платформы.Attribute.Версия" id="a0802fb1-d313-4669-a017-d82f907661ce"/>
+		</Metadata>
+		<Metadata name="Catalog.Платформы.Form.ФормаСписка" id="9e8ba578-7180-4410-8002-8346b4f11896" configVersion="2ca3a01deb811e4c84311f8a8fd124b200000000"/>
+		<Metadata name="Catalog.Платформы.Form.ФормаСписка.Form" id="9e8ba578-7180-4410-8002-8346b4f11896.0" configVersion="29ab3d5210c1314397946cb4c4701f1200000000"/>
+		<Metadata name="Catalog.Платформы.Form.ФормаЭлемента" id="3ef73f50-5cee-4bc8-8ec6-ad393e74202c" configVersion="f7162d788877e24aa792bfc54ce3812500000000"/>
+		<Metadata name="Catalog.Платформы.Form.ФормаЭлемента.Form" id="3ef73f50-5cee-4bc8-8ec6-ad393e74202c.0" configVersion="8a0abfb682be6843a5acd801e3c133d200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="ea94e3bd-f978-488e-9f72-5d947e536173" configVersion="ebd3ad4b897a6a4db8bc52c8cc73a62700000000"/>
+		<Metadata name="Enum.РежимыИБ" id="921fad66-7eb3-495e-97dc-94ecf874d0f9" configVersion="d939026b379e2f48ba446a5784256a6800000000">
+			<Metadata name="Enum.РежимыИБ.EnumValue.Серверный" id="8a5a8cb2-f382-44da-b220-b55c0808f455"/>
+			<Metadata name="Enum.РежимыИБ.EnumValue.Файловый" id="bf962723-a82c-4e87-99a4-f8ed918099e4"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="ff5a318b-e22c-4c97-97fc-e4c08fa83032" configVersion="368b1c937604844898e19d012fbe31b300000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
