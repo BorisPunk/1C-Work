@@ -133,7 +133,9 @@
 			<Catalog>ИнформационныеБазы</Catalog>
 			<Catalog>Конфигурации</Catalog>
 			<Catalog>Платформы</Catalog>
+			<Catalog>Разработчики</Catalog>
 			<Enum>РежимыИБ</Enum>
+			<Report>ОтчетПоИБ</Report>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

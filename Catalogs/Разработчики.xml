@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
-	<Catalog uuid="3599f38b-172f-4c60-896c-fb16745df4f7">
+	<Catalog uuid="49f0b143-344f-4632-8ca0-d3b408c624fe">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Платформы" category="Object">
-				<xr:TypeId>cc6f3527-3620-4c55-b5f9-a37a0256a0f2</xr:TypeId>
-				<xr:ValueId>5381141c-43c9-422c-8ea0-3f0bd8c17ba9</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Разработчики" category="Object">
+				<xr:TypeId>ddf72a4b-05e0-4850-b6b5-6860844a473a</xr:TypeId>
+				<xr:ValueId>f123eb7f-4e2c-44fb-b1d4-c179a332b7ca</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Платформы" category="Ref">
-				<xr:TypeId>6a0111e7-4bdf-48a0-90fe-5384ff24838a</xr:TypeId>
-				<xr:ValueId>44441334-7a76-44d7-826b-0f69dc6dd4ac</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Разработчики" category="Ref">
+				<xr:TypeId>a3be229f-3ed8-4657-aca7-bee67e2e4bfd</xr:TypeId>
+				<xr:ValueId>35923ab1-bc0d-45b7-b3ef-3e67616a8a6a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Платформы" category="Selection">
-				<xr:TypeId>1118ed31-b431-4cf8-91e8-2dc5733c564c</xr:TypeId>
-				<xr:ValueId>017061d6-6ad2-41a6-ab41-2ad22e245296</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Разработчики" category="Selection">
+				<xr:TypeId>8b3f471a-20b3-436d-b7b1-8b368e42ceb1</xr:TypeId>
+				<xr:ValueId>7245b69d-64c4-426a-bce0-85b61905b528</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Платформы" category="List">
-				<xr:TypeId>c5ad7182-99de-4503-bc18-af61b4640b49</xr:TypeId>
-				<xr:ValueId>88a20e8d-025f-4539-a7c7-5a6c21330a6a</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Разработчики" category="List">
+				<xr:TypeId>0b42a7e9-468a-46fe-b807-203f5c517dfe</xr:TypeId>
+				<xr:ValueId>26c08c17-c74e-4b25-9259-9f32d728c33f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Платформы" category="Manager">
-				<xr:TypeId>ebca3e54-bc88-4be7-94fd-0fd9aa6d97a9</xr:TypeId>
-				<xr:ValueId>ce87254c-bbb7-4f89-8b3a-2d4ee9c2ab48</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Разработчики" category="Manager">
+				<xr:TypeId>a204a57d-e5c3-4359-b3e5-4d771b666ccc</xr:TypeId>
+				<xr:ValueId>d1246376-a917-40bf-a12c-f6e3f3f5a49c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Платформы</Name>
+			<Name>Разработчики</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Платформы</v8:content>
+					<v8:content>Разработчики</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>50</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,16 +54,16 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Платформы.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Платформы.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Разработчики.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Разработчики.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Платформы.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.Разработчики.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.Платформы.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm>Catalog.Платформы.Form.ФормаВыбора</DefaultChoiceForm>
+			<DefaultListForm>Catalog.Разработчики.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.Разработчики.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -85,20 +85,20 @@
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a0802fb1-d313-4669-a017-d82f907661ce">
+			<Attribute uuid="3b51b4cf-72f4-47a2-8120-98149409b144">
 				<Properties>
-					<Name>Версия</Name>
+					<Name>Сайт</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Версия</v8:content>
+							<v8:content>Сайт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>20</v8:Length>
+							<v8:Length>256</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>

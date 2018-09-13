@@ -3,6 +3,9 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="Шапка" id="1">
 			<Title>
@@ -23,6 +26,7 @@
 							<v8:content>Левая колонка</v8:content>
 						</v8:item>
 					</Title>
+					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ЛеваяКолонкаРасширеннаяПодсказка" id="4"/>
@@ -46,6 +50,7 @@
 									<v8:content>Группа копия</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКопияРасширеннаяПодсказка" id="56"/>
@@ -59,12 +64,12 @@
 										<Event name="OnChange">ЭтоКопияПриИзменении</Event>
 									</Events>
 								</CheckBoxField>
-								<InputField name="Копия" id="60">
-									<DataPath>Объект.Копия</DataPath>
+								<InputField name="ОригинальнаяИБ" id="60">
+									<DataPath>Объект.ОригинальнаяИБ</DataPath>
 									<Visible>false</Visible>
 									<TitleLocation>None</TitleLocation>
-									<ContextMenu name="КопияКонтекстноеМеню" id="61"/>
-									<ExtendedTooltip name="КопияРасширеннаяПодсказка" id="62"/>
+									<ContextMenu name="ОригинальнаяИБКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="ОригинальнаяИБРасширеннаяПодсказка" id="62"/>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -111,6 +116,7 @@
 							<v8:content>Правая колонка</v8:content>
 						</v8:item>
 					</Title>
+					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ПраваяКолонкаРасширеннаяПодсказка" id="21"/>
@@ -144,6 +150,7 @@
 					<v8:content>Нижняя группа</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="НижняяГруппаРасширеннаяПодсказка" id="51"/>

@@ -218,7 +218,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
+							<v8:Length>50</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -379,11 +379,11 @@
 			</Attribute>
 			<Attribute uuid="ed9ec03c-302a-4ad1-a3d8-96d4c5fe1cc5">
 				<Properties>
-					<Name>Копия</Name>
+					<Name>ОригинальнаяИБ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Копия</v8:content>
+							<v8:content>Оригинальная ИБ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
